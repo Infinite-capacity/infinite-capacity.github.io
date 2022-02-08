@@ -1,1 +1,88 @@
 
+/* Universal */
+
+body {
+  width: 100%;
+  display: block;
+  background-color: #5270ab;
+  margin: 0;
+}
+
+body main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+table, th , td{
+  border: 1px solid black;
+}
+
+img {
+  width: 500px
+}
+
+/* Nav Bar */
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-image: url('./images/nav-background.jpg');
+  padding: 0;
+  top: 0;
+  height: 60px;
+}
+
+nav ul{
+  padding: 15px;
+  margin-top: 0;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 20px;
+  padding-top: 5px;
+}
+
+nav a{
+  color: #d1a000;
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  font-size: 20px;
+  margin-right: 8px;
+  padding-top: 0;
+}
+
+#nav-title {
+  float: right;
+  font-weight: 700;
+  font-size: 20px;
+  color: #969696;
+  margin: 0;
+  padding-bottom: 7px;
+  padding-top: 0;
+}
+
+/* Banner */
+.banner {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 75px;
+}
+
+/* Footer */
+footer {
+  color: #969696;
+  background-image: url('./images/nav-background.jpg');
+  height: 40px;
+  bottom: 0;
+  margin: 0;
+}
+
+footer p {
+  padding-top: 10px;
+  margin: 0;
+}
